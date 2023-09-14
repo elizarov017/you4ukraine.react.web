@@ -1,0 +1,29 @@
+@import '/src/variables';
+
+.item-page {
+    margin-top: 75px;
+    -webkit-animation: fadein .8s;
+    -moz-animation: fadein .8s;
+    -ms-animation: fadein .8s;
+    -o-animation: fadein .8s;
+    animation: fadein .8s;
+
+
+
+    .info-containner {
+
+        .info-inner {
+            justify-content: space-between;
+
+            img {
+                max-width: 95vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .item-page {
+        margin-top: 35px;
+    }
+}

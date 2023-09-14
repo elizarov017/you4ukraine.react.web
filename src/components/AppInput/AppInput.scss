@@ -1,0 +1,14 @@
+.input-error {
+    border-color: #ff3535!important;
+    border-style: solid!important;
+  }
+
+.error-text {
+    color: #ff3535;
+    font-size: 14px;
+}
+
+.input-form-error-wrap {
+    display: flex;
+    flex-direction: column;
+}

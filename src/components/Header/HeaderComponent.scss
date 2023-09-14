@@ -1,0 +1,109 @@
+@import '/src/variables';
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+.me-auto {
+    align-items: center;
+}
+
+.navigation-bar {
+    background: $secondary-color;
+}
+.navbar-group {
+    display: flex;
+}
+
+.d-small-screen {
+    display: none;
+}
+
+.d-wide-screen {
+    display: flex;
+}
+
+.badge {
+    background-color: $primary-color!important;
+    color: black;
+    position: absolute;
+    top: -10%;
+    left: 80%;
+}
+
+@media (max-width: 991px) {
+
+    .d-small-screen {
+        display: flex;
+    }
+
+    .d-wide-screen {
+        display: none;
+    }
+
+    .navbar-group {
+        .navbar-brand {
+            margin-right: 10px;
+        }
+    }
+
+    #basic-navbar-nav > div {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.navbar-collapse {
+    background: $secondary-color;
+    width: 100%;
+}
+
+.logo-brand {
+    font-family: 'NAMU';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 91.5%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 30px;
+    /* identical to box height */
+
+text-align: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.cart-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+}

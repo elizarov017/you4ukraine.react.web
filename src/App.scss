@@ -1,0 +1,65 @@
+@import '/src/variables';
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 78px;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: 'NAMU';
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'NAMU';
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  a {
+    font-family: 'NAMU';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+  }
+
+  a:hover {
+    text-decoration-line: underline;
+    color: $primary-color;
+  }
+}
+
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.Toastify__progress-bar-theme--light {
+  background: linear-gradient(
+    to right,
+    $primary-color,
+    $secondary-color,
+  )!important;
+}
+
+@media (max-width: 991px) {
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+}

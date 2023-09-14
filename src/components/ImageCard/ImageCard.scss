@@ -1,0 +1,14 @@
+.card-image {
+    margin: 20px 0;
+    border: none;
+    z-index: -4;
+    justify-content: center;
+    align-items: center;
+
+    .card-img {
+        max-width: 100%;
+        width: auto;
+        max-height: 100%;
+        height: auto;
+    }
+}

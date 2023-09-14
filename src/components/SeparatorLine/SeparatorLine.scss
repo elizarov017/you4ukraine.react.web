@@ -1,0 +1,20 @@
+.separator-line {
+    width: 100vw;
+    min-height: 15vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+
+    img {
+        min-width: 102vw;
+        height: 100%;
+    }
+}
+
+.mirror-y {
+    img {
+        transform: scaleY(-1) scaleX(-1) translateX(2vw);
+    }
+}

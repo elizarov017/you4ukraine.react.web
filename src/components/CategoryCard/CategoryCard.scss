@@ -1,0 +1,36 @@
+@import '/src/variables';
+
+.category-card {
+    margin: 20px;
+    text-decoration: none;
+
+
+    .category-image-wrap {
+        width: 288px;
+        height: 288px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    span {
+        font-family: 'NAMU';
+        font-size: 24px;
+        color: #000000;
+        font-style: normal;
+        text-transform: uppercase;
+        transition: .2s;
+    }
+
+
+}
+
+.category-card:hover {
+    cursor: pointer;
+    color: $primary-color;
+
+    span {
+        color: $primary-color;
+    }
+
+}

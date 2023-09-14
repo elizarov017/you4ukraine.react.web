@@ -1,0 +1,26 @@
+@import '/src/variables';
+
+.size-button {
+    height: 70px;
+    width: 70px;
+    margin-right: 22px;
+    border: 1px solid #000000;
+    color: #000000;
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    transition: .2s;
+
+    font-size: 18px;
+
+    &-active {
+        border-color: $primary-color;
+        background-color: $primary-color;
+    }
+
+    &:hover {
+        border-color: $primary-color;
+    }
+}

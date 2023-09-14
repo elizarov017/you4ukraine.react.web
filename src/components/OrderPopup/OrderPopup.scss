@@ -1,0 +1,61 @@
+#order-popup-container {
+    position: absolute;
+    right: 0;
+}
+
+.order-popup {
+    position: relative;
+    width: 411px;
+    max-width: 100vw;
+    max-height: 500px;
+    background: white;
+    margin-top: 5px;
+    padding: 19px 29px 31px 29px;
+    border: black 1px solid;
+    cursor: auto;
+
+    .items-wrap {
+        overflow: scroll;
+        max-height: 350px;
+
+        .empty-cart-msg {
+            font-family: 'Roboto';
+            color: gray;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .popup-footer {
+        position: sticky;
+        bottom: 0;
+        background-color: #fff;
+
+        .total-line {
+            color: black;
+            font-weight: 600;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        .button-wrap {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    #order-popup-container {
+        position: fixed;
+        right: 0;
+        top: 84px;
+        max-width: 100vw;
+    }
+}

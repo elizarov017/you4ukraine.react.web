@@ -1,0 +1,22 @@
+@import '/src/variables';
+
+.thanks-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // height: 265px;
+    background-color: $secondary-color;
+    color: white;
+
+    .content {
+        margin: 30px 0;
+        width: 861px;
+        max-width: 95vw;
+
+        h4 {
+            font-family: 'Montserrat';
+            color: #FFFFFF;
+        }
+    }
+}

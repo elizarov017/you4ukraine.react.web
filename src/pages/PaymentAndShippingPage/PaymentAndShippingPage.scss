@@ -1,0 +1,24 @@
+@import '/src/variables';
+
+.payment-delivery-page {
+    -webkit-animation: fadein .8s;
+    -moz-animation: fadein .8s;
+    -ms-animation: fadein .8s;
+    -o-animation: fadein .8s;
+    animation: fadein .8s;
+
+    .delivery-section-container {
+        background-color: #fff;
+
+        .container .content-container {
+            color: black;
+        }
+    }
+
+    .university-wrap {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

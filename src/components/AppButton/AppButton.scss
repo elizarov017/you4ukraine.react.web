@@ -1,0 +1,73 @@
+@import '/src/variables';
+
+.button {
+    transition: 0.2s;
+
+    width: 219px;
+    height: 56px;
+
+    font-family: 'NAMU';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    border: none;
+
+    &__blue {
+        background-color: $secondary-color;
+        color: white;
+
+        &:hover {
+            background-color: $primary-color;
+            color: black;
+        }
+    }
+
+    &__yellow {
+        background-color: $primary-color;
+        color: black;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: white;
+        }
+    }
+
+    &__outline-blue {
+        background: none;
+        color: $secondary-color;
+        border: 3px $secondary-color solid;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: white;
+        }
+    }
+
+    &__outline-yellow {
+        background: none;
+        color: $primary-color;
+        border: 3px $primary-color solid;
+
+        &:hover {
+            background-color: $primary-color;
+            color: black;
+        }
+    }
+}
+
+.button-small {
+    width: 157px !important;
+    height: 45px !important;
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 180px;
+    }
+}
+
+@media (max-width: 375px) {
+    .button-small {
+        width: 120px!important;
+    }
+}

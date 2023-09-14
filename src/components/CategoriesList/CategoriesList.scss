@@ -1,0 +1,12 @@
+.categories-list {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .loader-wrap {
+        height: 373px;
+        display: flex;
+        align-items: center;
+    }
+}
